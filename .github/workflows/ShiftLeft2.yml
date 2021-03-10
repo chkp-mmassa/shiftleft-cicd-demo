@@ -38,6 +38,5 @@ jobs:
           chmod +x ./shiftleft
           git clone https://github.com/chkp-mmassa/demo-app
           ./shiftleft code-scan -s ./demo-app
-        run: |
           echo Add other actions to build,
           echo test, and deploy your project.
