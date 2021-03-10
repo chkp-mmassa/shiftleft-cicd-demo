@@ -36,7 +36,7 @@ jobs:
           CHKP_CLOUDGUARD_SECRET: ${{ secrets.CHKP_CLOUDGUARD_SECRET }}
         run: |
           chmod +x ./shiftleft
-          git clone https://github.com/chkp-rolandop/demo-app
+          git clone https://github.com/chkp-mmassa/demo-app
           ./shiftleft code-scan -s ./demo-app
         run: |
           echo Add other actions to build,
